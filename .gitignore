@@ -1,2 +1,20 @@
+# 1. Secret API Keys (CRITICAL!)
 .env
-/_pycache_
+
+# 2. Python Environment & Dependencies
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# 3. Docker logs and data (Optional)
+.dockerignore
+
+# 4. OS-specific files
+.DS_Store
+Thumbs.db
+
+# 5. Local VS Code settings
+.vscode/
